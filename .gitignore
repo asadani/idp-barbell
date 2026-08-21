@@ -1,0 +1,4 @@
+__pycache__/
+.bf-cache/
+*.staged
+*.new.pdf

@@ -1,0 +1,84 @@
+# The Barbell and the Vanishing Middle -- book-forge configuration.
+#
+# Source of truth is the blog copy (26 Jul), which is newer and larger than the
+# 8 Jun idp-barbell.html that was sitting in this directory.
+
+slug: idp-barbell
+title: "The Barbell and the Vanishing Middle"
+subtitle: "Intelligent document processing, 2026-2028"
+theme: sheet-oxblood        # only the QR settings are used in flow mode
+
+source:
+  template: book.html.in
+output:
+  html: idp-barbell.html
+  pdf: idp-barbell.pdf
+
+page:
+  size: A4
+
+cover:
+  art: assets/idp-barbell-cover.png
+  page: false               # the essay renders its own cover
+  fit: crop
+
+qr:
+  - slot: QR_AUTHOR
+    target: https://anujsadani.in
+  - slot: QR_TECH
+    target: https://tech.anujsadani.in/idp-barbell/
+
+folio:
+  # Self-paginating: @page { @bottom-center { content: counter(page) } }.
+  enabled: false
+
+matter:
+  mode: flow
+  css: true
+  front:
+    heading: "Copyright, permissions, and how this was made"
+    work_line: "The Barbell and the Vanishing Middle &mdash; an essay on where
+      value is migrating in document intelligence, and what gets hollowed out."
+    # No AI-authorship disclosure: this book has no verification workspace, and
+    # how it was drafted is not recorded. Set `ai_disclosure: drafted` if that
+    # is accurate for this title.
+    anchor_before: '<!-- BOOK-FORGE:AFTER-COVER -->'
+    imprint: "First edition &middot; June 2026"
+  about:
+    heading: "About the author"
+    anchor_before: '<!-- BOOK-FORGE:BEFORE-END -->'
+    qr_override:
+      - index: 1
+        blurb: "Read this essay online, and the rest of the shelf."
+        code: "tech.anujsadani.in"
+  colophon_html: |
+    <b>The Barbell and the Vanishing Middle</b> &mdash; an essay by Anuj Sadani, 2026.<br>
+      Read online: <b>tech.anujsadani.in/idp-barbell</b>
+
+# No licence is stated anywhere in the manuscript -- only "(c) 2026 Anuj
+# Sadani". all-rights-reserved renders that faithfully rather than inventing a
+# grant. Change to CC-BY-4.0 or CC-BY-NC-ND-4.0 if a licence is intended.
+license:
+  id: all-rights-reserved
+
+edition: "First edition"
+date: 2026-06
+
+links:
+  read_online: https://tech.anujsadani.in/idp-barbell/
+  kofi: https://ko-fi.com/s/3be014f2e6
+
+verify:
+  cover_probes: ["Barbell"]
+  body_probes:
+    - "Vanishing Middle"
+    - "extraction"
+  matter_probes:
+    - "Copyright, permissions"
+    - "About the author"
+  # No @font-face and no webfonts: a system stack by design. The shipped PDF
+  # embedded Liberation faces because it was rendered on Linux.
+  allow_system_fonts: true
+  min_images: 0
+  expect_pages: 24
+  page_tolerance: 6
