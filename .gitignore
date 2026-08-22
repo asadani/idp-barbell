@@ -2,3 +2,7 @@ __pycache__/
 .bf-cache/
 *.staged
 *.new.pdf
+
+# Research notes. Kept locally; the published source is book.html.in.
+*.md
+!README.md
