@@ -81,5 +81,5 @@ verify:
   # embedded Liberation faces because it was rendered on Linux.
   allow_system_fonts: true
   min_images: 0
-  expect_pages: 24
+  expect_pages: 27
   page_tolerance: 6
