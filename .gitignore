@@ -6,3 +6,6 @@ __pycache__/
 # Research notes. Kept locally; the published source is book.html.in.
 *.md
 !README.md
+
+# The typeset PDF is sold on Ko-fi, not distributed from this repository.
+*.pdf
