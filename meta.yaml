@@ -79,7 +79,6 @@ verify:
     - "About the author"
   # No @font-face and no webfonts: a system stack by design. The shipped PDF
   # embedded Liberation faces because it was rendered on Linux.
-  allow_system_fonts: true
   min_images: 0
-  expect_pages: 27
+  expect_pages: 29
   page_tolerance: 6
