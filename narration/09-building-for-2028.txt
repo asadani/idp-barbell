@@ -1,0 +1,49 @@
+Building for 2028.
+
+It is one thing to say value moves to the ends. It is another to build a company there. So let us do the useful exercise: zoom out to 2028 and ask what the product actually looks like, the stack, the org chart, the things each team does on a Tuesday, and then zoom back in to the parts that are near-certain, so the vision stays honest. The goal is not a roadmap. It is a map of where you would innovate and where you would simply execute.
+
+The stack in 2028
+
+The three economic layers are still there, but each has hardened into recognizable sub-layers, the kind of thing a buyer will expect to see on an architecture slide. Note where the old "middle" lives: not as a product of its own, but as named capabilities sealed inside the fabric.
+
+Who builds it, who sells it
+
+If extraction is no longer the moat, the whole organization re-points around the decision. Here is what that means for each function in 2028, concrete, not aspirational.
+
+Sells the decision, not the document. Lands a vertical with an outcome contract, basis points of risk, days off the cycle, dollars of liability avoided. The headline is a decision SLA, never an accuracy number.
+
+Tells a trust story, not a feature story. Shows before/after cycle times, audited decisions, "close faster without more risk." Proof is reference customers and third-party evals, not an OCR percentage on a slide.
+
+Owns the decision and its exception path. Sets confidence thresholds and escalation policy, curates the eval sets, and prioritizes by dollars-per-decision and risk-per-error rather than features shipped.
+
+Builds representation, fabric, and decision logic as one system. Wraps agents in deterministic harnesses, integrates to systems of record, and treats the eval suite, not unit tests alone, as the real definition of done.
+
+Runs model routing and versioning, regression evals on every change, drift and hallucination monitoring, cost/latency budgets, prompt and schema versioning, data residency, and fast rollback. Treats a prompt change like a deploy.
+
+Runs the human-in-the-loop: exception queues, reviewer tooling, and feedback labeling that feeds the evals. Incident response is decision response, in this business, a bug is a wrong decision someone acted on.
+
+The frontier and the bedrock
+
+This is the zoom-out and the zoom-in, side by side. The left column is where you earn a moat by 2028, the unsolved, high-leverage problems. The right column is what is near-certain regardless of who wins, the ground you build on rather than bet against.
+
+Confidence you can underwrite, calibrated, per-decision certainty a risk officer will sign their name to.
+
+Self-improving reconciliation, fabric that learns each vertical's characteristic inconsistencies instead of being hand-tuned.
+
+Cross-organization document graphs, one shared representation spanning counterparties, not a silo per company.
+
+Accountable agents, provable, replayable audit trails for autonomous decisions a regulator will accept.
+
+The routine ~90% of extraction is commoditized and effectively free.
+
+The trustworthy last mile is still hard, and still where errors hurt most.
+
+Humans still own the long tail and the liability; full autonomy stays the exception.
+
+Regulation has hardened: audit and explainability are table stakes, not features.
+
+Buyers purchase outcomes and platforms, not standalone extraction modules.
+
+Read the two columns together and the strategy falls out on its own. You innovate on the left column because that is where a defensible moat is still unclaimed; you do not waste capital fighting the right column, because those are settled facts you build on top of. The companies that win in 2028 will be the ones that picked an end of the barbell, treated the bedrock as given, and spent every scarce dollar of cleverness on the frontier, on manufacturing trust inside the wall nobody can see.
+
+Zoom out far enough and everything looks like agents. Zoom back in and the work is the same as it ever was: be right, know when you're not, and be able to prove it.

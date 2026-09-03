@@ -1,0 +1,19 @@
+The Three Economic Layers.
+
+Step back far enough and the barbell resolves into a cleaner picture: the industry is splitting into three economic layers, each with its own physics of value. Naming them precisely matters, because most companies are standing in the most dangerous one without realizing it.
+
+Layer 1, Document Infrastructure
+
+OCR, parsing, layout, markdown, chunking, knowledge graphs. Highly horizontal; everyone needs it. Margins on any single capability compress over time, but, as Chapter Three argued, the company that becomes the canonical representation does not compress, it consolidates. This layer eventually becomes infrastructure, in the full Oracle-and-Snowflake sense of the word: low-drama, high-gravity, and very hard to dislodge once everyone builds on you.
+
+Layer 2, The Reasoning Fabric
+
+This is the layer people forget, and the one most companies are quietly standing in: extraction, retrieval, validation, reconciliation, evidence gathering, agent orchestration. It is where most "agent frameworks" live. And it is the most precarious place to plant a flag, not because the work is unimportant (it is the load-bearing wall) but because the foundation models keep absorbing pieces of it from below, while the decision systems absorb pieces of it from above. Squeezed from both directions, much of this layer survives as a feature inside other people's products rather than as a business of its own. Many companies that think they are building a platform here are really building a feature someone else will ship for free.
+
+Layer 3, Decision Systems
+
+Mortgage underwriting, claims adjudication, trade-finance approval, sanctions investigation, KYC. This layer stays sticky because of what it contains beyond any model: business rules, compliance regimes, workflows, accountability, auditability. These are the things a foundation-model provider cannot commoditize with a better checkpoint, because they are not capabilities, they are responsibilities. This is where business value durably lives.
+
+Reading the three layers as an investor would
+
+The strategic reading writes itself. Durable companies will sit firmly on one of the two ends, or will be vertically integrated enough to collapse all three layers into a single domain-optimized product. The dangerous position is to be a pure-play in Layer 2, selling the fabric as though it were a destination, while the ground erodes from both sides.

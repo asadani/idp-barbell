@@ -1,0 +1,19 @@
+The Verdict.
+
+So where is intelligent document processing actually going? Not, as the easy version claims, toward "no more extraction." Extraction is still being rebuilt, on agentic OCR, on layout grounding, on vision-language models, and its trustworthy last mile is still a real, hard business. What is ending is extraction as the moat: the place where differentiation concentrates and budgets are won. The real motion is outward, toward the two heavy ends of the barbell, and inward, as the old center is swallowed by the walls on either side.
+
+Stated as a prediction for 2026 through 2028, sharpened until it is hard to attack:
+
+IDP is no longer differentiated by extraction alone. The moat is migrating outward, to document-infrastructure companies on the left and decision-automation companies on the right, while the extraction-and-reasoning layer, including its genuinely hard last mile of trustworthy, calibrated output, becomes embedded inside both ends rather than sold as a standalone product category. The verdict
+
+Notice what that sentence does not say. It does not say the middle is simple, it is a load-bearing wall, more intricate now than it ever was, merely sealed out of view. It does not say the left is cheap, the company that becomes the canonical representation layer for enterprise documents will be the document world's Snowflake, not its commodity. It does not say extraction stopped mattering, only that it stopped being a thing you sell, and became a thing you assume, like a database query or a network call.
+
+What to do about it
+
+If you are building: pick an end, or integrate hard enough to own all three layers in one vertical. On the left, do not aim to parse, aim to become the representation everyone assumes. On the right, do not aim to extract, aim to own the decision, with its rules, its compliance, and its accountability. The one position to avoid is a pure-play in the reasoning fabric, selling the load-bearing wall as if buyers shopped for walls. They don't. They buy houses.
+
+If you are buying: capture value at both ends. Invest in genuinely good ingestion and representation, and invest in agentic decision automation on workflows you can govern, but never assume the invisible middle is handled. Inspect the wall. "Mostly correct" is still a costly failure, and it fails most quietly precisely where you have stopped looking.
+
+The first instinct, that value is leaving extraction, was right. The correction is the whole point: the middle is not dying. It is being absorbed into both ends and losing its name. The barbell is real. The bar between the plates is still there, still bearing load. You just can't see it anymore.
+
+The routine nine-tenths of extraction became a prompt. The trustworthy last mile became a wall you cannot see, holding up everything that pays.

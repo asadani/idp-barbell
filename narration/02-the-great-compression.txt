@@ -1,0 +1,19 @@
+The Great Compression.
+
+The arrival of capable multimodal language models did something specific and irreversible: it turned the hardest part of the old pipeline into a single instruction. Where a team once trained, tuned, and babysat a template model to pull a tax registration number off an invoice, an engineer can now write a sentence describing the field and a schema describing its shape. The field falls out the other end. Extraction, the thing that was once the entire product, became a line in a prompt.
+
+You can see the compression in the demos that now circulate as ordinary. One widely shared prototype processes forty-seven loan applications in forty-five seconds, doing extraction, cross-checking documents against each other, scoring risk, and rendering a decision, in roughly three hundred lines of code. A decade ago, the extraction step alone would have been a procurement cycle and a six-figure contract. Now it is a weekend.
+
+The shape of the shift
+
+It would be easy, and wrong, to read these numbers as "the problem is solved." What actually happened is subtler. The difficulty did not evaporate; it changed address. The old difficulty was template design and rule maintenance. The new difficulty is orchestration: enforcing structured output, scoring confidence, catching the model when it hallucinates a plausible-but-false value, and wiring feedback loops that improve the system over time.
+
+This is the first place the naive thesis stumbles. "Extraction is a prompt" is true as a statement about cost and packaging. It is false as a statement about rigor. A model that is mostly right is not a smaller version of a model that is right, in a regulated workflow it is a liability, because someone downstream will act on the wrong number. As the chief executive of one extraction vendor put it with unusual bluntness:
+
+"Mostly correct is a costly failure." On why accurate extraction still matters, even when it's invisible
+
+Be precise about what actually got cheap. For clean, common documents, accuracy on the routine fields crossed into the high nineties years ago, that part genuinely collapsed into a prompt. What did not collapse is the last mile: the messy scan, the adversarial layout, the rare field, and above all calibrated confidence, a system knowing when it is wrong. Raw accuracy is even document-dependent: clean print is near-perfect, while dense tables and handwriting are not. Pulling the right value and being able to underwrite it remains a hard, high-end business, and the debate over machine certainty is nowhere near settled. That residue, small in volume, large in consequence, is exactly the part that does not commoditize. It gets absorbed.
+
+So the compression is real, but it is a compression of price and visibility, not of substance. The field that used to cost a contract now costs a token. What that does, what it must do, is push the locus of value away from the field itself and toward the two things a field cannot give you on its own: a representation rich enough to reason over, and a decision worth paying for. Left, and right.
+
+When the center of a thing becomes free, the value does not disappear. It migrates to the edges.

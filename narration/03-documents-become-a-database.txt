@@ -1,0 +1,23 @@
+Documents Become a Database.
+
+Watch where the most interesting infrastructure companies are pointing and you notice they have stopped trying to answer domain questions. They are not competing to tell you the merchant is Walmart. They are competing to produce something more fundamental: a faithful, machine-navigable rendering of an arbitrary document, a packet split into its constituent files, each one classified, page and section boundaries detected, layout understood, reading order recovered, tables reconstructed down to the cell, checkboxes read as checked or unchecked, signatures and stamps located, figures captioned, cross-page references resolved, and every claim traceable back to its position on the original page.
+
+Notice how little of that is "extraction" in the old sense. Almost none of it is pulling a named field. It is document understanding, the unglamorous structural work of turning a stack of pixels into an object with parts: documents, pages, sections, tables, cells, fields, marks, signatures. That structural layer is the real left-side product. Get it wrong and everything downstream, every entity, every reconciliation, every decision, inherits the error.
+
+The industry has a name for the inflection now: the move from legacy OCR to agentic document processing. The defining sentence in the better analyses is telling, enterprises "don't want flat text files, they need AI-ready data (structured JSON, clean Markdown, and semantic insights) that can power LLMs and autonomous agents." The deliverable has changed. It is no longer a field. It is a substrate.
+
+The winning question is no longer "can I extract field X?" It is "can any future AI system reason over this document efficiently?"
+
+That is a different problem, and it is a deeper one. Tools in this layer increasingly converge on the same ambition from different angles: LlamaParse reconstructs nested tables and multi-column hierarchies into clean Markdown; Unstructured.io partitions dozens of file formats for private-cloud pipelines; ColPali skips text entirely and maps page images to vectors for layout-aware retrieval; Memgraph's toolkit turns raw text into a knowledge graph of nodes and edges ready for traversal. Different bets, one destination: the document as a queryable object.
+
+The "generic, therefore cheap" mistake
+
+Here the easy thesis stumbles a second time. The reasoning goes: this layer is horizontal, everyone needs it, horizontal things commoditize, therefore the left is a low-margin race to the bottom. The commoditization pressure is real, when many tools emit interchangeable JSON-and-Markdown, buyers shop on price and developer experience. But "generic" and "cheap" are not synonyms, and the history of computing is a graveyard of people who confused them.
+
+Consider the most generic software categories ever invented. A relational database stores anything, it knows nothing about your business. An operating system runs any program. Maximum genericity. And yet:
+
+Generic did not mean cheap
+
+Why did genericity create rather than destroy value here? Because everyone builds on top of them. The moment a representation becomes the thing other systems assume, switching costs compound, ecosystems form, and the "commodity" quietly becomes a tollbooth. A database is generic the way a foundation is generic, invisible, unglamorous, and the reason the building stands.
+
+The prize on the left, then, is not "cheap parsing." It is to become the canonical representation layer for enterprise documents, the format every downstream agent, every retrieval system, every compliance tool silently assumes. That is not a commodity outcome. That is the document world's equivalent of becoming the database. Cloud providers clearly see it; Textract, Document AI, and Form Recognizer are not loss leaders, they are land grabs.

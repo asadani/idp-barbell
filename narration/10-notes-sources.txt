@@ -1,0 +1,41 @@
+Notes & Sources.
+
+Figures and quotations are drawn from the supporting research compiled for this essay (vendor documentation, analyst commentary, and peer-reviewed studies, accessed 2026). Citation numbers in the text map to the sources below.
+
+Bizdata360, Intelligent Document Processing (IDP): Ultimate Guide 2026. bizdata360.com
+
+AutomationEdge, Intelligent Document Processing. automationedge.com
+
+LlamaIndex, Top Document Processing Software for 2026: The Rise of Agentic Document Processing. llamaindex.ai
+
+Landing AI / Parseur, Agentic Document Extraction & the 2026 Guide. parseur.com
+
+arXiv, Adapting the Interface, Not the Model: Runtime Harness Adaptation for Deterministic LLM Agents (Life-Harness). arxiv.org
+
+Memgraph, How to Use the Unstructured2Graph RAG Tool. memgraph.com
+
+Microsoft Azure Cosmos DB DevBlog, Scalable AI with Azure Cosmos DB: Tredence Intelligent Document Processing (Project Zenith). devblogs.microsoft.com
+
+Affinda, The Complete Intelligent Document Processing Guide (and Forrester TEI ROI figures). affinda.com
+
+Rossum, vendor commentary on extraction accuracy ("mostly correct is a costly failure"); see Counterarguments in the deep-research compilation.
+
+Gartner / industry survey data on agentic adoption (67% in 2025, up from 23% in 2023); IDC market sizing. Compiled in the deep-research report.
+
+Sana Labs, Best Enterprise AI Agent Platforms 2025, 2026 (UiPath, Tungsten TotalAgility, multi-agent orchestration). sanalabs.com
+
+CACM, Multi-Agent Systems Will Rescript Enterprise Automation in 2026. cacm.acm.org
+
+Solace, Why Multi-Agent Systems Need Real-Time Context in 2026 (Gartner/IDC synthesis). solace.com
+
+Deep-research compilation, market sizing (Fortune Business Insights: ~$10.6B 2025 → $14.2B 2026 → $91B 2034), RAG QA accuracy (~94%), pass-through rates, the 47-applications/45-seconds prototype, ~61% paper persistence, and graph-vs-RAG evidence. Aggregated across the three source reports in this directory.
+
+PDF-to-decision prototype, 47 loan applications processed in ~45 seconds in ~300 lines of code; reported in the deep-research compilation (technical-feasibility section).
+
+LlamaIndex, Document AI Guide: Agentic OCR & Workflows and Agentic Document Extraction (visual grounding, pass-through rates). llamaindex.ai
+
+Ali Arsanjani, Beyond Extraction: The 5 Customer Trends Defining IDP in 2026. medium.com
+
+Medium, Pydantic vs Instructor vs BAML (schema-aligned parsing; Pydantic ~300M downloads/month). medium.com
+
+© 2026. An essay on where document intelligence is heading. Read the Overture for the argument; read the chapters for the evidence.

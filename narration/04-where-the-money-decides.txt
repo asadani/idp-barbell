@@ -1,0 +1,17 @@
+Where the Money Decides.
+
+Now walk to the other plate of the barbell, because this is where the budget actually lives. Strip away the technology and ask what a customer was ever really buying, and you arrive at an uncomfortable truth for anyone selling extraction: no one ever wanted it. They wanted to approve a loan, deny a claim, onboard a customer, investigate a fraud ring, file a compliance report, price an underwriting risk. Extraction was scaffolding. Nobody pays to admire scaffolding.
+
+This is why budgets swell as you move right. A mortgage lender will not get excited about your OCR accuracy. They will get out their checkbook for one sentence:
+
+"Can I close loans faster without increasing risk?" The only question that actually moves a budget
+
+The closer a system sits to that question, the more money becomes available to it, because the value being created is no longer measured in fields-per-second but in basis points of risk, days of cycle time, and dollars of liability avoided. The industry data tracks this gravitational pull. Spend and differentiation are migrating, in analyst language, "to the orchestration and platform level rather than standalone extraction modules." The extraction box, increasingly, is a free or embedded feature; the decision is the product.
+
+The budget moves toward the decision
+
+And once a system makes a real decision, it inherits a set of obligations that have nothing to do with reading a page, and everything to do with why this layer is defensible. A decision must be explainable: when an agent approves a claim, someone will eventually ask why, and the system must trace that answer back to evidence on a specific page. A decision must be auditable, governed, and accountable, because a regulator can demand the trail and a court can demand the logic.
+
+These obligations are exactly what foundation-model providers cannot easily absorb. A better base model does not give you a sanctions-screening policy, a state-by-state lending rulebook, a claims-adjudication workflow, or the legal accountability for getting them wrong. That domain machinery, business rules, compliance, workflow, auditability, is what makes the right side sticky. It is the part of the stack that does not commoditize when the next model ships, which is precisely why the value pools there.
+
+Extraction is a means. The decision is the end. Budgets follow ends, not means.

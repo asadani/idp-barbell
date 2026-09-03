@@ -1,0 +1,13 @@
+The Pipeline That Ate Itself.
+
+For most of its life, intelligent document processing was a story about the middle. Open almost any vendor's "ultimate guide" from the last few years and you find the same canonical assembly line: ingestion, preprocessing, classification, data extraction, post-processing, validation, routing, and a feedback loop that learns from human corrections. Every one of those guides positions the same stage as the heart of the system, the moment raw pixels become a field with a name and a value.
+
+This was not an accident of marketing. It was where the difficulty genuinely lived. Legacy optical character recognition read a page the way a photocopier does: it mapped characters in sequence without any sense of how they related to their neighbors. It relied on rigid coordinate templates that shattered the moment a vendor moved a logo or a form gained a line. So the entire art of the field was template engineering, building and maintaining brittle rules that could survive contact with the real, messy world of documents.
+
+Product differentiation followed the difficulty. The competitive question in IDP, for a decade, was narrow and sharp:
+
+"Who can extract harder fields, from messier documents, at higher accuracy?"
+
+Whoever answered that question best won the deal. Accuracy on field extraction was the moat, the demo, and the invoice line item. The two ends of the pipeline, getting documents in, and pushing decisions out, were treated as bookends. Necessary, but not where the magic was. The magic was in the middle.
+
+The trouble with building your business on the middle of a straight line is that straight lines are easy to re-route once a more capable component shows up. And in 2023, a more capable component showed up.

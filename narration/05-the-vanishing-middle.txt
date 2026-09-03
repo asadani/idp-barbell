@@ -1,0 +1,19 @@
+The Vanishing Middle.
+
+Now to the heart of the correction, the single place where the easy version of this thesis is most wrong, and where getting it right makes the argument bulletproof. The easy version says: the middle is becoming simple. It is not. The middle is becoming invisible. Those are different claims, and the difference is the whole game.
+
+Take a real loan package. It often arrives as a single 200-page PDF, and the very first task is unglamorous: split it into its constituent documents, detect where each one begins and ends, and classify every page, a W-2, a paystub, a bank statement, an appraisal, a title report, a sales contract. Even that is non-trivial when a packet is mis-ordered or a document spills across a boundary. And it is only the start, because the package is a small archive that disagrees with itself: each document was produced by a different party, on a different day, in a different format, for a different purpose. To answer the deceptively simple question, should this loan be approved?, a system must do work that no amount of clean Markdown on the left and no slick decision UI on the right will do for it:
+
+It must perform entity resolution, decide whether the "J. Smith" on the paystub, the "John A. Smith" on the title, and the "John Smith" on the contract are one legal person or three. It must do cross-document reconciliation, the income on the W-2 should be consistent with the deposits on the bank statement, and when they aren't, that gap is the entire signal. It needs temporal reasoning (is this paystub current or stale?), confidence estimation (how sure are we, and is that enough to act?), and provenance tracking (when the regulator asks, every number points back to its source).
+
+None of that is "reading." All of it is the middle. And here is the point that makes the thesis hard to attack:
+
+The middle hasn't disappeared. It's just no longer exposed as a standalone product. The reasoning layer still needs it, it has simply been absorbed into the walls of the systems on either side.
+
+This is the load-bearing wall. In a finished house you do not see it. There is no plaque on the wall reading "structural, do not remove." A visitor walking through would swear the house is just rooms and a roof. But take that wall out because it looked decorative, and the roof comes down. The middle of IDP is now that wall: sealed behind the infrastructure layer on one side and the decision layer on the other, invisible to the buyer, and absolutely holding up the result.
+
+The research bears this out. Far from vanishing, the middle has grown more complex, it just stopped being a product you could point at. Where the old middle was hard because of templates and rules, the new middle is hard because of schema enforcement, validation, confidence scoring, multi-agent orchestration, and the deterministic harnesses now wrapped around agents to keep them from looping or hallucinating their way into a wrong decision. Whole tool categories, Pydantic for schema validation (over 300 million downloads a month), Instructor and BAML for forcing models into valid structured output, exist only to make this invisible middle trustworthy. That is not the toolkit of a layer that is becoming simple.
+
+"LLMs can read documents now, so extraction is dead." But mortgage was never document reading. It was domain reasoning wearing a document's clothes.
+
+This is the deepest error the simple thesis makes, and worth stating plainly: the hard part was never finding the merchant name. The hard part was always deciding whether a name appearing in seventeen places refers to one legal entity, and whether that entity satisfies policy XYZ. That problem is not solved by a model that reads better. It is solved by domain reasoning, and domain reasoning is exactly the thing that survives.

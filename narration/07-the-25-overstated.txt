@@ -1,0 +1,25 @@
+The 25% Overstated.
+
+A thesis you cannot argue against is not strong; it is merely unexamined. So here is the honest counter-case, the quarter of the argument worth holding loosely, the places where reality is messier than a clean barbell drawing.
+
+The middle can stall the whole machine
+
+If you believe the middle is "invisible," you can talk yourself into believing it is handled. It often isn't. Errors in extraction and reconciliation propagate silently into decisions, and a great many real IDP projects stall not on ingestion or workflow but on accuracy in exactly this layer. Invisible is not the same as solved. A load-bearing wall you have stopped inspecting is how roofs come down.
+
+LLM extraction is not free of failure modes
+
+The same models that compressed extraction into a prompt also brought new and stranger failure modes. Engineers report language models looping, hallucinating values, or tripping content filters mid-page; structured parsing of dense tables can be harder for a model than for an old rule-based extractor unless carefully engineered. Counter-intuitively, adding chain-of-thought reasoning has been shown to hurt raw parsing accuracy while raising latency and hallucination. "Just prompt it" is a real capability and a real liability at once.
+
+Paper has not read the memo
+
+The clean two-layer future assumes documents arrive as files. A large share, by some surveys around 61% of document processes, still involves paper somewhere in the chain. Paper-heavy, legacy-bound industries are exactly the high-value verticals (legal, finance, government), and they migrate slowly and expensively. The barbell is the destination; the journey is longer and lumpier than a diagram admits.
+
+The graph-versus-retrieval question is genuinely open
+
+Part of the "documents become a database" story leans on knowledge graphs as the rich representation. The evidence is mixed: some studies find multi-agent GraphRAG decisively beating plain vector retrieval on multi-hop reasoning; others find naive GraphRAG doing worse than simple, well-tuned dense retrieval. Enterprises that over-invest in heavyweight graph machinery may end up outperformed by a boring, well-engineered search index. The left layer's winning form is not settled.
+
+And the lines genuinely blur
+
+Finally, the cleanest critique of any layer cake is that the real market refuses to stay in its boxes. The large suites, UiPath's document-plus-agent platform, Tungsten's TotalAgility spanning standard IDP through multi-agent workflows and RAG-based knowledge discovery, the end-to-end stacks from AWS, Azure, and Google, deliberately weave all three layers into one product, so the buyer never perceives a middle to begin with. That convergence is itself evidence for the thesis (the middle disappears as a category) and a caution against it (no clean left/right split survives contact with a platform sales motion).
+
+None of this overturns the core claim. It sands down its edges. Value is migrating to the ends; the middle is losing its standing as a product. But the migration is slower, the middle is more fragile-yet-essential, and the boundaries are blurrier than a confident one-line prediction lets on. Hold the thesis at 75%, not 100%, and it gets stronger, not weaker.
