@@ -443,7 +443,7 @@
   .site-nav {
     position: sticky; top: 0; z-index: 50;
     display: flex; align-items: center; justify-content: space-between;
-    max-width: 820px; margin: 0 auto 22px auto;
+    width: 100%; max-width: 820px; margin: 0 auto 22px auto;
     padding: 0 18px; height: 52px; box-sizing: border-box;
     background: rgba(255, 255, 255, 0.93); backdrop-filter: blur(6px);
     border: 1px solid var(--rule); border-radius: 2px;
@@ -465,7 +465,7 @@
   }
   .cover-dl .ar { font-weight: 400; opacity: 0.85; }
   .site-foot {
-    max-width: 820px; margin: 6px auto 44px auto; padding: 18px;
+    width: 100%; max-width: 820px; margin: 6px auto 44px auto; padding: 18px;
     display: flex; justify-content: space-between; align-items: center;
     font-family: var(--display); font-size: 9.5pt; color: var(--faint);
     border-top: 1px solid var(--rule); box-sizing: border-box;
@@ -680,6 +680,7 @@
   body > section { order: 0; }
   body > .bf-front { order: 8; }
   body > .bf-about { order: 9; }
+  body > .site-foot { order: 10; }
 }
 /* /BOOK-FORGE:MATTER-CSS */
 
@@ -769,54 +770,6 @@
     <li><span class="n">&mdash;</span><span class="t">Notes &amp; Sources</span><span class="d">where the numbers come from</span></li>
   </ol>
 </section>
-
-<!-- ============================ OVERTURE ============================ -->
-<section class="overture">
-  <h2 class="part">Overture &middot; The Narration</h2>
-  <h2 class="chapter-title">Extraction Was the Product. Now It&rsquo;s a Prompt.</h2>
-  <p class="lead">Read only this and you will have the whole argument. Everything after it is evidence.</p>
-
-  <div class="script">
-
-  <div class="beat">Open</div>
-  <p>Not long ago, pulling a number off a page was a business in itself. Companies existed to read the merchant name on a receipt, the gross pay on a W-2, the balance on a bank statement, and they sold accuracy by the field &mdash; the harder the field, the messier the scan, the more it was worth.</p>
-
-  <p>That business has not died. Pulling the <em>right</em> value, and being able to vouch for it, is still hard and still valuable. What has changed is where the difficulty &mdash; and the money &mdash; now lives. The routine nine-tenths of extraction, the part that once took a model and a team, has fallen close to a prompt. The stubborn last tenth, and the confidence to stand behind it, has not. <strong>Extraction used to be the whole product. Today the easy part of it is a prompt, and the value has begun moving to the two ends.</strong></p>
-
-  <div class="beat">The collapse</div>
-  <p>The classic pipeline ran in a straight line: scan the page, classify the document, extract the fields, validate the result. Four stages, and the value lived dead center &mdash; in extraction. That center is collapsing into something thin. The work didn&rsquo;t disappear. The <em>product</em> did.</p>
-
-  <p>And as the middle thins, value rushes outward to the two ends. Picture a barbell. All the weight is on the plates; the bar between them is just a bar.</p>
-
-  <div class="beat">The left plate &mdash; infrastructure</div>
-  <p>On one end, a new kind of company is forming. Its job is not to tell you the merchant is Walmart. Its job is to turn a two-hundred-page document into something a machine can <em>reason over</em> &mdash; clean structure, reading order, tables, figures, cross-page references, citations back to the pixel. The output is not a field. The output is a <strong>navigable representation of the document itself</strong>.</p>
-
-  <p>The tempting story is that this layer is generic, therefore cheap. Be careful. Databases are generic too. So are operating systems. Generic is how Oracle, Snowflake, and Databricks became some of the most valuable companies on earth &mdash; because <em>everyone builds on top of them.</em> If one company becomes the canonical representation layer for enterprise documents, that is not a commodity. That is a kingdom.</p>
-
-  <div class="beat">The right plate &mdash; decisions</div>
-  <p>On the other end is where the money actually is. Because no customer ever wanted extraction. They wanted to <em>approve the loan, deny the claim, onboard the customer, catch the fraud.</em> Extraction was only ever a means to an end.</p>
-
-  <p>A mortgage lender does not care about OCR. A mortgage lender cares about one sentence: <em>can I close loans faster without taking on more risk?</em> The closer a system gets to that sentence, the larger the budget that opens up. Decisions carry compliance, accountability, audit trails, liability. That is why they are sticky, and that is why the model providers cannot easily swallow them.</p>
-
-  <div class="beat">The trap in the thesis</div>
-  <p>Here is where the easy version of this story goes wrong. People say: the middle is becoming <em>simple.</em> It is not. <strong>The middle is becoming invisible &mdash; and invisible is not the same as simple.</strong></p>
-
-  <p>Think of a loan package: a W-2, a paystub, a bank statement, an appraisal, a title report, a sales contract. To answer <em>should this loan be approved,</em> someone still has to resolve which &ldquo;John A. Smith&rdquo; across six documents is the same legal person, reconcile figures that should agree, notice the ones that don&rsquo;t, reason about dates, estimate confidence, and keep a trail of where every fact came from. That is the middle. It did not vanish. It became a <strong>load-bearing wall</strong> &mdash; sealed inside the house, invisible from the street, and absolutely holding up the roof.</p>
-
-  <p>The hard problem was never &ldquo;find the merchant name.&rdquo; The hard problem was always: <em>does this name, appearing in seventeen places, refer to one legal entity &mdash; and does that entity satisfy policy XYZ?</em> Mortgage is not document reading. Insurance is not document reading. Trade finance is not document reading. They are <strong>domain reasoning problems wearing the costume of document problems.</strong></p>
-
-  <div class="beat">The verdict</div>
-  <p>So here is the claim, sharpened until it&rsquo;s hard to attack:</p>
-
-  <blockquote class="pull">IDP is no longer differentiated by extraction alone. The moat is migrating outward &mdash; to document-infrastructure companies on the left and decision-automation companies on the right &mdash; while the extraction-and-reasoning layer, including its genuinely hard last mile of trustworthy, calibrated output, becomes embedded inside both ends rather than sold as a standalone product.
-  <span class="who">The thesis, 75% right &mdash; and the 25% worth arguing</span></blockquote>
-
-  <p>The original instinct &mdash; value is leaving extraction &mdash; is correct. The correction is only this: the middle isn&rsquo;t dying. It&rsquo;s being absorbed into both ends and losing its name. Read on for the evidence.</p>
-
-  </div>
-</section>
-
-<!-- ============================ CH I ============================ -->
 
 <!-- BOOK-AUDIO:BEGIN -->
 <style>.ba{--ba-warm:#FBF8F3;--ba-warm-2:#F4EFE7;--ba-line:#E4DCD0;--ba-dim:#8A8175;
@@ -1032,6 +985,55 @@ body.ba-bar-open{padding-bottom:56px}
   select(0, false);
 })();</script>
 <!-- BOOK-AUDIO:END -->
+
+<!-- ============================ OVERTURE ============================ -->
+<section class="overture">
+  <h2 class="part">Overture &middot; The Narration</h2>
+  <h2 class="chapter-title">Extraction Was the Product. Now It&rsquo;s a Prompt.</h2>
+  <p class="lead">Read only this and you will have the whole argument. Everything after it is evidence.</p>
+
+  <div class="script">
+
+  <div class="beat">Open</div>
+  <p>Not long ago, pulling a number off a page was a business in itself. Companies existed to read the merchant name on a receipt, the gross pay on a W-2, the balance on a bank statement, and they sold accuracy by the field &mdash; the harder the field, the messier the scan, the more it was worth.</p>
+
+  <p>That business has not died. Pulling the <em>right</em> value, and being able to vouch for it, is still hard and still valuable. What has changed is where the difficulty &mdash; and the money &mdash; now lives. The routine nine-tenths of extraction, the part that once took a model and a team, has fallen close to a prompt. The stubborn last tenth, and the confidence to stand behind it, has not. <strong>Extraction used to be the whole product. Today the easy part of it is a prompt, and the value has begun moving to the two ends.</strong></p>
+
+  <div class="beat">The collapse</div>
+  <p>The classic pipeline ran in a straight line: scan the page, classify the document, extract the fields, validate the result. Four stages, and the value lived dead center &mdash; in extraction. That center is collapsing into something thin. The work didn&rsquo;t disappear. The <em>product</em> did.</p>
+
+  <p>And as the middle thins, value rushes outward to the two ends. Picture a barbell. All the weight is on the plates; the bar between them is just a bar.</p>
+
+  <div class="beat">The left plate &mdash; infrastructure</div>
+  <p>On one end, a new kind of company is forming. Its job is not to tell you the merchant is Walmart. Its job is to turn a two-hundred-page document into something a machine can <em>reason over</em> &mdash; clean structure, reading order, tables, figures, cross-page references, citations back to the pixel. The output is not a field. The output is a <strong>navigable representation of the document itself</strong>.</p>
+
+  <p>The tempting story is that this layer is generic, therefore cheap. Be careful. Databases are generic too. So are operating systems. Generic is how Oracle, Snowflake, and Databricks became some of the most valuable companies on earth &mdash; because <em>everyone builds on top of them.</em> If one company becomes the canonical representation layer for enterprise documents, that is not a commodity. That is a kingdom.</p>
+
+  <div class="beat">The right plate &mdash; decisions</div>
+  <p>On the other end is where the money actually is. Because no customer ever wanted extraction. They wanted to <em>approve the loan, deny the claim, onboard the customer, catch the fraud.</em> Extraction was only ever a means to an end.</p>
+
+  <p>A mortgage lender does not care about OCR. A mortgage lender cares about one sentence: <em>can I close loans faster without taking on more risk?</em> The closer a system gets to that sentence, the larger the budget that opens up. Decisions carry compliance, accountability, audit trails, liability. That is why they are sticky, and that is why the model providers cannot easily swallow them.</p>
+
+  <div class="beat">The trap in the thesis</div>
+  <p>Here is where the easy version of this story goes wrong. People say: the middle is becoming <em>simple.</em> It is not. <strong>The middle is becoming invisible &mdash; and invisible is not the same as simple.</strong></p>
+
+  <p>Think of a loan package: a W-2, a paystub, a bank statement, an appraisal, a title report, a sales contract. To answer <em>should this loan be approved,</em> someone still has to resolve which &ldquo;John A. Smith&rdquo; across six documents is the same legal person, reconcile figures that should agree, notice the ones that don&rsquo;t, reason about dates, estimate confidence, and keep a trail of where every fact came from. That is the middle. It did not vanish. It became a <strong>load-bearing wall</strong> &mdash; sealed inside the house, invisible from the street, and absolutely holding up the roof.</p>
+
+  <p>The hard problem was never &ldquo;find the merchant name.&rdquo; The hard problem was always: <em>does this name, appearing in seventeen places, refer to one legal entity &mdash; and does that entity satisfy policy XYZ?</em> Mortgage is not document reading. Insurance is not document reading. Trade finance is not document reading. They are <strong>domain reasoning problems wearing the costume of document problems.</strong></p>
+
+  <div class="beat">The verdict</div>
+  <p>So here is the claim, sharpened until it&rsquo;s hard to attack:</p>
+
+  <blockquote class="pull">IDP is no longer differentiated by extraction alone. The moat is migrating outward &mdash; to document-infrastructure companies on the left and decision-automation companies on the right &mdash; while the extraction-and-reasoning layer, including its genuinely hard last mile of trustworthy, calibrated output, becomes embedded inside both ends rather than sold as a standalone product.
+  <span class="who">The thesis, 75% right &mdash; and the 25% worth arguing</span></blockquote>
+
+  <p>The original instinct &mdash; value is leaving extraction &mdash; is correct. The correction is only this: the middle isn&rsquo;t dying. It&rsquo;s being absorbed into both ends and losing its name. Read on for the evidence.</p>
+
+  </div>
+</section>
+
+<!-- ============================ CH I ============================ -->
+
 
 <section class="chapter">
   <div class="chapter-num">I</div>
